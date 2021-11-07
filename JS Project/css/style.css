@@ -1,0 +1,74 @@
+body{
+    background-size: cover;
+}
+
+ul{
+    list-style: none;
+}
+
+input{
+    border: none;
+    background-color: transparent;
+    background:no-repeat;
+    border-bottom: 1px solid white;
+    color:white;
+    text-align:center;
+    font-size: 24px;
+    
+}
+input::placeholder{
+    text-align:center;
+    color:white;
+}
+
+.hidden{
+    display:none ;
+}
+
+.top{
+    text-align:right;
+    height: 150px;
+    color:white;
+}
+
+.mid{
+    height: 430px;
+    text-align:center;
+    color:white;
+}
+
+.checked{
+    text-decoration: line-through;
+    opacity: 0.6;
+}
+
+.button-style{
+    background-color: transparent;
+    border:none;
+}
+
+#weather{
+    font-size : 20px;
+    font-weight : bold;
+}
+
+#clock{
+    margin: 20px;
+    font-size: 80px;
+}
+
+#greeting{
+    margin: 20px;
+    font-size: 60px;
+}
+
+#todo-list{
+    text-align:center;
+    font-size: 20px;
+    color:white;
+}
+
+#quote{
+    text-align: center;
+    color:white;
+}
